@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billedgalleri</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="module" src="js/menu.js"></script>
+    <script type="module" src="js/filter.js"></script>
+</head>
+<body>
+    <header>
+
+        <div class="search__wrapper">
+            <input type="search" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <div class="menu__wrapper">
+            <div class="headline__wrapper">
+                <h1>Explore</h1>
+            </div>
+            <nav>
+                <button class="burgermenu" >
+                    <img src="/img/icons/menu-icon.svg" alt="" class="burgermenu--icon" id="burgermenu">
+                </button>
+                <ul class="is-active" id="burgermenu-ul">
+                    <li>lifestyle</li>
+                    <li>food</li>
+                    <li>travel</li>
+                    <li>home</li>
+                    <li>
+                        <details>
+                            <summary>more</summary>
+                            <span>animal</span><br> 
+                            <span>b</span>
+                        </details>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="picturegallery__wrapper">
+            <div class="picturegallery__wrapper--container"><img data-category="food" src="/img/pictures/food-matcha-latte.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="food" src="/img/pictures/food-crossant.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="food" src="/img/pictures/food-berry.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="food" src="/img/pictures/food-pizza.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="food" src="/img/pictures/food-porkbowl.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="food" src="/img/pictures/food-shrimp.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="animal" src="/img/pictures/animal-monkey.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="animal" src="/img/pictures/animal-parrot.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="animal" src="/img/pictures/animal-flamingo.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="animal" src="/img/pictures/animal-springbok.jpg" alt="" class="picturegallery__wrapper--image"></div>
+            <div class="picturegallery__wrapper--container"><img data-category="animal" src="/img/pictures/animal-snake.jpg" alt="" class="picturegallery__wrapper--image"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="icons__wrapper">
+            <img src="/img/icons/faceboo-icon.svg" alt="icon" class="icons__wrapper--icon">
+            <img src="/img/icons/twitter-icon.svg" alt="icon" class="icons__wrapper--icon">
+            <img src="/img/icons/insta-icon.svg" alt="icon" class="icons__wrapper--icon">
+            <img src="/img/icons/google-plus-icon.svg" alt="icon" class="icons__wrapper--icon">
+            <img src="/img/icons/behance-icon.svg" alt="icon" class="icons__wrapper--icon">
+            <img src="/img/icons/basketball-icon.svg" alt="icon" class="icons__wrapper--icon">
+        </div>
+    </footer>
+</body>
+</html>
