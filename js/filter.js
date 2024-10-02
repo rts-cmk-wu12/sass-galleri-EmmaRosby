@@ -1,5 +1,5 @@
 const menu = document.querySelector('#burgermenu-ul');
-const images = document.querySelectorAll('#gallery-image');
+const images = document.querySelectorAll('.picturegallery__wrapper--image');
 
 
 menu.addEventListener('click', function(e){
