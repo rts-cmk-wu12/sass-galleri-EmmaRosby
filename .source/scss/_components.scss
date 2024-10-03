@@ -15,6 +15,12 @@
     }
 }
 
+.headline__wrapper h1 a{
+
+    text-decoration: none;
+        
+}
+
 .burgermenu{
     @extend %center;
     width: 3rem;
@@ -89,8 +95,6 @@
     
         &--container{
             width: 100%;
-            margin: 0;
-            padding: 0;
         }
         &--image{
             max-width: 100%;
